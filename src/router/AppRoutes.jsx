@@ -9,12 +9,12 @@ export const AppRoutes = () => {
             <Navbar />
             <div className="container">
                 <Routes>
-                    <Route path="about" element={<AboutPage />} />
-                    <Route path="projects" element={<ProjectsPage />} />
-                    <Route path="skills" element={<SkillsPage />} />
-                    <Route path="contact" element={<ContactPage />} />
+                    <Route path="/about" element={<AboutPage />} />
+                    <Route path="/projects" element={<ProjectsPage />} />
+                    <Route path="/skills" element={<SkillsPage />} />
+                    <Route path="/contact" element={<ContactPage />} />
 
-                    <Route path="*" element={<Navigate to="/about" />} />
+                    <Route path="/*" element={<Navigate to="/about" />} />
                 </Routes>
             </div>
         </>
