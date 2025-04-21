@@ -1,18 +1,4 @@
 
-
-/* import { AppRoutes } from './router/AppRoutes'
-
-function App() {
-
-  return (
-    <>
-      <AppRoutes />
-    </>
-  )
-}
-
-export default App; */
-
 import { useState, useEffect } from 'react';
 import { AppRoutes } from './router/AppRoutes';
 

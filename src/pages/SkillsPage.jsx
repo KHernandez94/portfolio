@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { FaJs, FaHtml5, FaCss3Alt, FaReact, FaBootstrap, FaNode, FaGitAlt } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
-import { Education } from "../components/education/education";
+import { Education } from "../components/Education/Education";
 
 
 export const SkillsPage = () => {

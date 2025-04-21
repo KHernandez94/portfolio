@@ -27,7 +27,7 @@ export const SocialMedia = () => {
 
         <a
           className='btn btn-informative'
-          href='https://www.linkedin.com/in/katherinehernandez94/'
+          href='https://t.me/kathernandez94'
           target='_blank'
           style={{
             textDecoration: 'none',
