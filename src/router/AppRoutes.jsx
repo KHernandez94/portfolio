@@ -6,7 +6,7 @@ import { Navbar } from "../ui/components/Navbar"
 export const AppRoutes = () => {
     return (
         <>
-            <Navbar />
+            <Navbar /* theme={theme} toggleTheme={toggleTheme}  *//>
             <div className="container">
                 <Routes>
                     <Route path="/about" element={<AboutPage />} />

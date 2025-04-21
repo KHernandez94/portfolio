@@ -94,12 +94,12 @@ export const SkillsPage = () => {
                 <h1 className="animate__animated animate__bounceInDown">Conocimiento / Habilidades</h1>
             </div>
 
-            <div className="container">
+            <div className="container overflow-hidden">
                 <div className="row text-center">
                     {skills.map(skill => (
                         <div
                             key={skill.id}
-                            className={`col-lg-3 col-md-4 col-sm-6 my-4 d-flex flex-column align-items-9
+                            className={`col-lg-3 col-md-4 col-sm-6 my-4 d-flex flex-column align-items-center
                             ${selectedSkill === skill.id ? "animate__animated animate__pulse" : ""}`}
                         >
                             <button
@@ -115,11 +115,12 @@ export const SkillsPage = () => {
 
                             {selectedSkill === skill.id && skill.description && (
                                 <div
-                                    className="text-dark mt-2 p-1 rounded text-center"
+                                    className="text-dark mt-2 p-2 rounded text-center"
                                     style={{
-                                        display: "inline-block",
+                                        display: "block",
                                         padding: "10px 15px",
                                         minWidth: "150px",
+                                        margin: "0 auto",
                                         borderRadius: "10px",
                                         backgroundColor: 'white',
                                         boxShadow: "0px 0px 10px rgba(34, 186, 187, 0.7)",

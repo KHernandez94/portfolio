@@ -2,7 +2,6 @@ import { FaLinkedin, FaWhatsapp, FaTelegram, FaDownload } from 'react-icons/fa';
 import profile from './../../../public/pdf/cvkhernandez.pdf';
 
 
-
 export const SocialMedia = () => {
   return (
     <>

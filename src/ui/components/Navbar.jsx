@@ -7,8 +7,6 @@ import {
 
 export const Navbar = () => {
 
-
-
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-2">
             <div className="container-fluid">
